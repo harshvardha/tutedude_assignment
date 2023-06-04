@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    max-width: 31.25rem;
+    color: white;
+    margin-right: 1.25rem;
+}
+
+.name--and--date {
+    display: flex;
+    column-gap: 6.25rem;
+    justify-content: space-between;
+}
+
+.coursesEnrolled {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+    align-items: flex-start;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+}
+
+.course {
+    border: 0.0625rem solid white;
+    border-radius: 1.25rem;
+    padding: 0.3125rem 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.referredAmount {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
